@@ -21,10 +21,3 @@ while p!= "exit":
 	response = conversation.message(workspace_id='dd52e3f6-fe5d-405f-acd3-98506b64a303',message_input=message_input)
 
 	print response["output"]["text"][0]
-
-'''
-
-message_input = {'text': 'where are you'}
-response = conversation.message(workspace_id='dd52e3f6-fe5d-405f-acd3-98506b64a303',message_input=message_input)
-print json.dumps(response, indent=2)
-'''
